@@ -8,3 +8,4 @@ gensim
 scipy<1.13
 nltk
 pypdf2
+pyLDAvis
