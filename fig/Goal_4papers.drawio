@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2024-06-25T08:28:02.223Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="rWKaCOqlauKpTVDsCJRy" version="24.6.2" type="device">
+  <diagram name="Seite-1" id="d2XmAIy_AY_zFEQyN5Mt">
+    <mxGraphModel dx="1027" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A2DKrevyER6VS4qHIg84-1" value="&lt;b&gt;Systematic Literature Reviews&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="585" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-2" target="A2DKrevyER6VS4qHIg84-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-2" value="&lt;b&gt;Extraction of ideas&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-4" target="A2DKrevyER6VS4qHIg84-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-4" value="Generate RDF using traditional method" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-6" target="A2DKrevyER6VS4qHIg84-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-6" value="Generate RDF using LLM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-8" target="A2DKrevyER6VS4qHIg84-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-8" value="Existing reviews as ground truth" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-10" target="A2DKrevyER6VS4qHIg84-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-10" value="&lt;b&gt;Evolution of ideas&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="725" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-12" value="&lt;b&gt;Identify successful ideas in research&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="770" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.878;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-12" target="A2DKrevyER6VS4qHIg84-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-14" target="A2DKrevyER6VS4qHIg84-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-14" value="&lt;b&gt;Identify negative results&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-16" target="A2DKrevyER6VS4qHIg84-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-16" value="Identify interesting personalties" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-18" target="A2DKrevyER6VS4qHIg84-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-18" value="Characterize the trajectory of the idea" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-20" target="A2DKrevyER6VS4qHIg84-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-20" value="Identify papers cited negatively" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-22" target="A2DKrevyER6VS4qHIg84-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-22" value="Identify papers cited by other negative papers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-24" target="A2DKrevyER6VS4qHIg84-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-24" value="Identify retracted papers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-26" target="A2DKrevyER6VS4qHIg84-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-26" value="&lt;div&gt;Extend RAG model to deal with evolution,&lt;/div&gt;&lt;div&gt;Chunking + time, indexing&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="580" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2DKrevyER6VS4qHIg84-28" target="A2DKrevyER6VS4qHIg84-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2DKrevyER6VS4qHIg84-28" value="&lt;div&gt;Trace the trajectory&amp;nbsp;&lt;/div&gt;&lt;div&gt;of an idea over time&amp;nbsp;&lt;/div&gt;&lt;div&gt;(the evolution&amp;nbsp;&lt;/div&gt;&lt;div&gt;of the knowledge graph)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="430" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
