@@ -1,4 +1,4 @@
-from gensim.parsing.preprocessing import preprocess_string
+from gensim.parsing.preprocessing import *
 from gensim import corpora
 import nltk
 nltk.download('wordnet')
@@ -7,6 +7,7 @@ from nltk.stem import WordNetLemmatizer
 # like DEFAULT_FILTERS, but without stemming
 _FILTERS = [lambda x: x.lower(), strip_tags, strip_punctuation, strip_multiple_whitespaces,
                    strip_numeric, remove_stopwords, strip_short]
+wnl = WordNetLemmatizer()
 
 def preprocess_string(s, filters=_FILTERS):
     s = utils.to_unicode(s)
@@ -15,14 +16,16 @@ def preprocess_string(s, filters=_FILTERS):
     return s.split()
 
 def clean(abstracts):
-    filters = []
     texts = [
         preprocess_string(text)
         for text in abstracts
     ]
     # Create WordNetLemmatizer object
-    wnl = WordNetLemmatizer()
-    return texts
+    lemmatized_texts = []
+    for text in texts:
+        lemmatized_words = [wnl.lemmatize(word) for word in text]
+        lemmatized_texts.append(lemmatized_words)
+    return lemmatized_texts
 
 def make_dictionary(texts):
     # Dictionary of the number of times a word appears in all of the text
