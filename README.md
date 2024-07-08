@@ -13,4 +13,4 @@ jupyter lab
 ```
 
 1. Load the dataset: arXiv.org submitters. (2024). arXiv Dataset [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/7548853
-2. Run 00_load_abstracts and 00_load_metadata
+2. Run cd to vx, run 00_load_abstracts and 00_load_metadata etc.
