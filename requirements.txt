@@ -11,3 +11,4 @@ pypdf2
 pyLDAvis
 torch
 transformers
+sentencepiece
