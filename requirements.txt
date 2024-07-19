@@ -12,3 +12,5 @@ pyLDAvis
 torch
 transformers
 sentencepiece
+huggingface_hub
+accelerate

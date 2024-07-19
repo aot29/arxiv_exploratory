@@ -3,3 +3,7 @@ fulltexts
 models
 .ipynb_checkpoints/
 __pycache__
+token.txt
+alpha/
+v3/alpha/
+v3/offload/
