@@ -29,8 +29,7 @@ jupyter lab
 
 Get the dataset (if it's not already there! It's big!): arXiv.org submitters. (2024). arXiv Dataset [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/7548853
 
-
-Run `cd v3`, run the notebooks:
+## Notebooks
 
 1. Cleanup the data
 * 00_load_abstracts.ipynb
